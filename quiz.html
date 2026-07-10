@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz | English Learning Hub</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+
+<div class="logo">
+<i class="fa-solid fa-graduation-cap"></i>
+English Learning
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="grammar.html">Grammar</a></li>
+<li><a href="vocabulary.html">Vocabulary</a></li>
+<li><a href="quiz.html" class="active">Quiz</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<button id="darkBtn">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>English Grammar Quiz</h1>
+
+<p>
+Test your English skills by answering the questions below.
+</p>
+
+</div>
+
+</section>
+
+<section>
+  <h2>Quiz</h2>
+  <div class="score-box" id="scoreBox">
+    Score: <span id="scoreValue">0</span> / 30
+  </div>
+  <div class="quiz-box">
+    <div class="quiz-question">
+      <h3>1. Which word is a Noun?</h3>
+      <button class="answer">Run</button>
+      <button class="answer correct">Book</button>
+      <button class="answer">Quickly</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>2. Which word is a Pronoun?</h3>
+      <button class="answer">School</button>
+      <button class="answer correct">She</button>
+      <button class="answer">Beautiful</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>3. Which word is a Verb?</h3>
+      <button class="answer">Blue</button>
+      <button class="answer">Happy</button>
+      <button class="answer correct">Write</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>4. Which word is an Adverb?</h3>
+      <button class="answer">Cat</button>
+      <button class="answer correct">Quickly</button>
+      <button class="answer">Ali</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>5. Which word is an Adjective?</h3>
+      <button class="answer">Run</button>
+      <button class="answer">Book</button>
+      <button class="answer correct">Beautiful</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>6. Which sentence is correct?</h3>
+      <button class="answer correct">He runs quickly.</button>
+      <button class="answer">He quickly runs book.</button>
+      <button class="answer">Quickly he book.</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>7. Which is a Proper Noun?</h3>
+      <button class="answer">city</button>
+      <button class="answer">school</button>
+      <button class="answer correct">Pakistan</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>8. Which word is a Common Noun?</h3>
+      <button class="answer correct">Teacher</button>
+      <button class="answer">Ali</button>
+      <button class="answer">Karachi</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>9. Which word is a Possessive Pronoun?</h3>
+      <button class="answer">She</button>
+      <button class="answer correct">Mine</button>
+      <button class="answer">Book</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>10. Which word is an Adverb?</h3>
+      <button class="answer">Dog</button>
+      <button class="answer">Apple</button>
+      <button class="answer correct">Slowly</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>11. What is the plural of child?</h3>
+      <button class="answer">Childs</button>
+      <button class="answer correct">Children</button>
+      <button class="answer">Childes</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>12. What is the past tense of go?</h3>
+      <button class="answer">Goed</button>
+      <button class="answer correct">Went</button>
+      <button class="answer">Gone</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>13. Which sentence uses the present simple?</h3>
+      <button class="answer">She is working every day.</button>
+      <button class="answer correct">She works every day.</button>
+      <button class="answer">She was working every day.</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>14. Which word is a conjunction?</h3>
+      <button class="answer">Under</button>
+      <button class="answer correct">And</button>
+      <button class="answer">Quickly</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>15. Which word is a preposition?</h3>
+      <button class="answer correct">Under</button>
+      <button class="answer">Happy</button>
+      <button class="answer">Run</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>16. Choose the correct article.</h3>
+      <button class="answer">a apple</button>
+      <button class="answer correct">an apple</button>
+      <button class="answer">the apple</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>17. What is the opposite of happy?</h3>
+      <button class="answer">Joyful</button>
+      <button class="answer">Cheerful</button>
+      <button class="answer correct">Sad</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>18. Which word is a synonym of big?</h3>
+      <button class="answer">Small</button>
+      <button class="answer correct">Large</button>
+      <button class="answer">Tiny</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>19. Which sentence is in the past continuous tense?</h3>
+      <button class="answer">They play cricket.</button>
+      <button class="answer correct">They were playing cricket.</button>
+      <button class="answer">They will play cricket.</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>20. Which punctuation mark ends a statement?</h3>
+      <button class="answer">?</button>
+      <button class="answer">!</button>
+      <button class="answer correct">.</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>21. Which sentence is correct?</h3>
+      <button class="answer correct">I am hungry.</button>
+      <button class="answer">I is hungry.</button>
+      <button class="answer">I are hungry.</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>22. Which word is an interjection?</h3>
+      <button class="answer">Beautiful</button>
+      <button class="answer correct">Wow!</button>
+      <button class="answer">Quickly</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>23. What is a place where books are kept?</h3>
+      <button class="answer">Kitchen</button>
+      <button class="answer correct">Library</button>
+      <button class="answer">Garden</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>24. Choose the correct form: She ___ to school every day.</h3>
+      <button class="answer">go</button>
+      <button class="answer correct">goes</button>
+      <button class="answer">going</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>25. Which is the correct question?</h3>
+      <button class="answer">Where you are going?</button>
+      <button class="answer correct">Where are you going?</button>
+      <button class="answer">Where going you are?</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>26. Choose the correct comparative form of small.</h3>
+      <button class="answer">smallerest</button>
+      <button class="answer correct">smaller</button>
+      <button class="answer">more small</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>27. Choose the correct superlative form of tall.</h3>
+      <button class="answer">tallier</button>
+      <button class="answer">more tall</button>
+      <button class="answer correct">tallest</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>28. Which sentence uses there correctly?</h3>
+      <button class="answer">There are a cat.</button>
+      <button class="answer correct">There is a cat.</button>
+      <button class="answer">There is cats.</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>29. Which word is a collective noun?</h3>
+      <button class="answer">River</button>
+      <button class="answer correct">Team</button>
+      <button class="answer">Book</button>
+    </div>
+
+    <div class="quiz-question">
+      <h3>30. Which sentence is correct?</h3>
+      <button class="answer">We has finished our homework.</button>
+      <button class="answer correct">We have finished our homework.</button>
+      <button class="answer">We have finish our homework.</button>
+    </div>
+  </div>
+</section>
+
+<!-- Score Section -->
+
+<section>
+
+<div class="word-box">
+
+<h2>Your Goal</h2>
+
+<p>
+Answer all questions and improve your English Grammar skills every day!
+</p>
+
+<a href="grammar.html" class="btn blue">Study Grammar</a>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<h3>English Learning Hub</h3>
+
+<p>Practice Daily and Become Fluent in English.</p>
+
+<div class="social">
+<i class="fab fa-facebook"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-youtube"></i>
+<i class="fab fa-linkedin"></i>
+</div>
+
+<p>© 2026 English Learning Hub. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="grammar.html">Grammar</a></li>
+<li><a href="vocabulary.html">Vocabulary</a></li>
+<li><a href="tenses.html">Tenses</a></li>
+<li><a href="quiz.html">Quiz</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
